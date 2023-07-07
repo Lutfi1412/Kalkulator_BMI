@@ -1,0 +1,8 @@
+pertama build gradle terlebih dahulu dengan perintah
+ buildFeatures{
+        viewBinding true
+    }
+
+kedua buat tampilan front end
+
+ketiga buat logic di class kotlin nya

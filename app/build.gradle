@@ -16,6 +16,13 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
+
+    //buildFeatures digunakan untuk mengaktifkan beberapa fitur dalam kasus ini viewBinding
+
+    //viewBinding digunakan untuk mengikat elemen UI (misalnya, TextView, Button, ImageView) secara langsung
+    // ke kode Kotlin atau Java. Dengan menggunakan View Binding, Anda dapat menghilangkan kebutuhan untuk
+    // menggunakan findViewById dan secara efisien mengakses dan memanipulasi elemen UI langsung melalui kode.
+    //simpel nya gausah inisialisasi id dari xml lagi, kelemahannya lebih berat karna mengimpor package viewBinding
     buildFeatures{
         viewBinding true
     }

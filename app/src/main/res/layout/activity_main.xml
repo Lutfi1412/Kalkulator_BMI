@@ -8,8 +8,9 @@
     android:gravity="top|center"
     android:orientation="vertical"
     android:background="@color/black">
-<!--    android:background="@color/black">-->
 
+    <!--        attribut style digunakan untuk mengatur style pada teks entah itu ketebalan, warna, kemiringan, dll-->
+    <!--        dan berbeda dengan font-->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -25,6 +26,8 @@
         android:gravity="center"
         android:orientation="horizontal">
 
+        <!--        attribut style digunakan untuk mengatur style pada teks entah itu ketebalan, warna, kemiringan, dll-->
+        <!--        dan berbeda dengan font-->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -32,6 +35,7 @@
             style="@android:style/TextAppearance.Material.Body1"
             android:textColor="#808080"/>
 
+<!--        android:layout_marginHorizontal="5dp", beri jarak kanan dan kiri pada numberpicker-->
         <NumberPicker
             android:id="@+id/numberscroolberat"
             android:layout_width="wrap_content"
@@ -40,6 +44,8 @@
             android:theme="@style/AppTheme.Picker"/>
 
 
+        <!--        attribut style digunakan untuk mengatur style pada teks entah itu ketebalan, warna, kemiringan, dll-->
+        <!--        dan berbeda dengan font-->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -47,13 +53,15 @@
             android:textColor="#808080"
             style="@android:style/TextAppearance.Material.Body1"/>
 
-            <TextView
-                android:layout_marginStart="10dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Tinggi"
-                android:textColor="#808080"
-                style="@android:style/TextAppearance.Material.Body1"/>
+<!--        attribut style digunakan untuk mengatur style pada teks entah itu ketebalan, warna, kemiringan, dll-->
+<!--        dan berbeda dengan font-->
+        <TextView
+            android:layout_marginStart="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tinggi"
+            android:textColor="#808080"
+             style="@android:style/TextAppearance.Material.Body1"/>
 
         <NumberPicker
             android:id="@+id/numberscrooltinggi"
